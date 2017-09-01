@@ -28,3 +28,12 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/delos3geur/bluetoo
 
 ## OTA assert
 TARGET_OTA_ASSERT_DEVICE := delos3geur,GT-I8552
+
+## Architecture
+TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := armv7-a-neon
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+
+## Audio
+USE_CUSTOM_AUDIO_POLICY := 0
