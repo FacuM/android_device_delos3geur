@@ -22,7 +22,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/delos3geur/delos3geur.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := cm_delos3geur
+PRODUCT_NAME := lineage_delos3geur
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I8552
